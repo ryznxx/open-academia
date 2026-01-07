@@ -1,0 +1,5 @@
+package bsd
+
+func BuildInstaller() {
+
+}
