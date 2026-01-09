@@ -54,19 +54,4 @@ func runProcesses() {
 func BuildInstaller() {
 	installDeps()
 	runProcesses()
-
-	if _, err := os.Stat("../run.o"); os.IsNotExist(err) {
-		log.Println("Build run.o binary...")
-		cmd := exec.Command("go", "build", "-o", "../run.o", "run.go")
-		cmd.Stdout = os.Stdout
-		cmd.Stderr = os.Stderr
-		if err := cmd.Run(); err != nil {
-			log.Fatal("Gagal build run.o:", err)
-		}
-	} else {
-		log.Println("run.o sudah ada, skip build.")
-	}
-
-	log.Println("Menjalankan run.o...")
-	utils.Run("../run.o")
 }
