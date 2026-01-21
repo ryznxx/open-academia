@@ -33,7 +33,7 @@ A high-level overview of system architecture and academic workflows is available
 **[ID]**
 Gambaran umum arsitektur sistem dan alur kerja akademik dapat diakses melalui tautan berikut:
 
-[Excalidraw – System Overview](https://excalidraw.com/#json=Fwhue34b_6ZAPU05Y2Lgo,6Ci_rOmeeb0w2Aez2J2Qew)
+[Excalidraw – System Overview](https://excalidraw.com/#json=MnuD6srsDMTRJ3gFebnk6,sEzq7NNSj4JrRvAIRzk_Sg)
 
 ---
 
