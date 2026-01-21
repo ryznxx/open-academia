@@ -2,21 +2,24 @@
 
 # OpenAcademia
 
-OpenAcademia is an open-source academic management system designed for institutions that require full control over their academic infrastructure without dependency on proprietary vendors.
+**OpenAcademia** is an open-source academic management system designed for higher education institutions that require full ownership and control over their academic infrastructure, without dependency on proprietary vendors.
 
-This project exists to address long-standing issues in campus information systems: opaque licensing, rigid contracts, limited extensibility, and platforms that prioritize vendor convenience over institutional autonomy.
+The system is developed with alignment to **Indonesian academic management standards**, including common administrative structures, academic workflows, and governance practices used in Indonesian higher education institutions, while remaining flexible enough for broader adoption.
 
-(excalidraw)[https://excalidraw.com/#json=Fwhue34b_6ZAPU05Y2Lgo,6Ci_rOmeeb0w2Aez2J2Qew]
+This project exists to address long-standing issues in campus information systems, such as opaque licensing models, rigid vendor contracts, limited extensibility, and platforms that prioritize vendor convenience over institutional autonomy.
+
+A high-level system overview and workflow design can be accessed here:
+[Excalidraw – System Overview](https://excalidraw.com/#json=Fwhue34b_6ZAPU05Y2Lgo,6Ci_rOmeeb0w2Aez2J2Qew)
 
 ---
 
 ## Licensing
 
-OpenAcademia is released under the GNU Affero General Public License (AGPLv3).
+OpenAcademia is released under the **GNU Affero General Public License (AGPLv3)**.
 
 Any modification or deployment of this system over a network requires the modified source code to be made publicly available under the same license.
 
-This ensures that improvements remain accessible to the academic community rather than being absorbed into closed commercial offerings.
+This licensing model ensures that improvements and extensions remain accessible to the academic community and are not absorbed into closed commercial products.
 
 ---
 
@@ -24,19 +27,23 @@ This ensures that improvements remain accessible to the academic community rathe
 
 Contributions are welcome.
 
-All contributions must align with the project's core principles of transparency, maintainability, and institutional autonomy.
+All contributions must align with the project’s core principles:
 
-Please refer to `CONTRIBUTING.md` for guidelines.
+* Transparency
+* Maintainability
+* Institutional autonomy
+
+Please refer to `CONTRIBUTING.md` for detailed contribution guidelines.
 
 ---
 
 ## Disclaimer
 
-OpenAcademia is provided as-is, without warranty.
+OpenAcademia is provided *as-is*, without warranty of any kind.
 
-Institutions adopting this system are expected to evaluate, deploy, and maintain it according to their own operational requirements.
+Institutions adopting this system are responsible for evaluating, deploying, and maintaining it in accordance with their own academic policies, regulatory requirements, and operational needs.
 
 ---
 
-OpenAcademia  
-An open academic management system for institutions that prefer ownership over dependency.
+**OpenAcademia**
+An open academic management system aligned with Indonesian academic management standards, built for institutions that prefer ownership over dependency.
