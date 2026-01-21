@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client" // Tambahkan -js agar standar
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql" // UBAH INI
+  // url      = env("DATABASE_URL")
+}
+
+generator prismabox { 
+  provider = "prismabox"
+  typeboxImportDependencyName = "elysia"
+  typeboxImportVariableName = "t"
+  inputModel = true
+  output   = "../generated/prismabox"
+} 
+
+model User {
+  id    String  @id @default(cuid())
+  email String  @unique
+  name  String?
+}

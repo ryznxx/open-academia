@@ -4,7 +4,7 @@
 
   const content = {
     title: "Single Sign On (SSO)",
-    subtitle: config.signinWelcomingMessage || "Selamat datang kembali di dashboard Anda.",
+    subtitle: config.signinWelcomingMessage || "Selamat datang kembali di dashboard.",
     footerText: "Belum punya akun?",
     footerAction: "Hubungi Admin",
     buttonText: "Masuk ke Akun",
