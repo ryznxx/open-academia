@@ -1,8 +1,12 @@
+<img src="./branding/O.png" alt="img" />
+
 # OpenAcademia
 
 OpenAcademia is an open-source academic management system designed for institutions that require full control over their academic infrastructure without dependency on proprietary vendors.
 
 This project exists to address long-standing issues in campus information systems: opaque licensing, rigid contracts, limited extensibility, and platforms that prioritize vendor convenience over institutional autonomy.
+
+(excalidraw)[https://excalidraw.com/#json=Fwhue34b_6ZAPU05Y2Lgo,6Ci_rOmeeb0w2Aez2J2Qew]
 
 ---
 

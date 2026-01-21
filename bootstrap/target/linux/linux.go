@@ -55,3 +55,4 @@ func BuildInstaller() {
 	installDeps()
 	runProcesses()
 }
+d
