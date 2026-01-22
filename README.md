@@ -35,6 +35,29 @@ Gambaran umum arsitektur sistem dan alur kerja akademik dapat diakses melalui ta
 
 [Excalidraw – System Overview](https://excalidraw.com/#json=MnuD6srsDMTRJ3gFebnk6,sEzq7NNSj4JrRvAIRzk_Sg)
 
+## Struktur Proyek
+
+- [client](./client)  
+  Base frontend / welcoming page
+
+- [admission](./admission)  
+  Admission / PMB frontend
+
+- [academic](./academic)  
+  Academic system frontend (mahasiswa, dosen)
+
+- [auth](./auth)  
+  Authentication & Single Sign-On
+
+- [server](./server)  
+  Backend API & business logic
+
+- [branding](./branding)  
+  Static assets & branding
+
+- [bootstrap](./bootstrap)  
+  Setup, scripts, initial config
+  
 ---
 
 ## Licensing
