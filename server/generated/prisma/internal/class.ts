@@ -20,7 +20,7 @@ const config: runtime.GetPrismaClientConfig = {
   "clientVersion": "7.2.0",
   "engineVersion": "0c8ef2ce45c83248ab3df073180d5eda9e8be7a3",
   "activeProvider": "postgresql",
-  "inlineSchema": "generator client {\n  provider = \"prisma-client\" // Tambahkan -js agar standar\n  output   = \"../generated/prisma\"\n}\n\ndatasource db {\n  provider = \"postgresql\" // UBAH INI\n  // url      = env(\"DATABASE_URL\")\n}\n\ngenerator prismabox {\n  provider                    = \"prismabox\"\n  typeboxImportDependencyName = \"elysia\"\n  typeboxImportVariableName   = \"t\"\n  inputModel                  = true\n  output                      = \"../generated/prismabox\"\n}\n\nmodel User {\n  id    String  @id @default(cuid())\n  email String  @unique\n  name  String?\n}\n",
+  "inlineSchema": "generator client {\n  provider = \"prisma-client\" // Tambahkan -js agar standar\n  output   = \"../generated/prisma\"\n}\n\ndatasource db {\n  provider = \"postgresql\" // UBAH INI\n}\n\ngenerator prismabox {\n  provider                    = \"prismabox\"\n  typeboxImportDependencyName = \"elysia\"\n  typeboxImportVariableName   = \"t\"\n  inputModel                  = true\n  output                      = \"../generated/prismabox\"\n}\n\nmodel User {\n  id    String  @id @default(cuid())\n  email String  @unique\n  name  String?\n}\n",
   "runtimeDataModel": {
     "models": {},
     "enums": {},
